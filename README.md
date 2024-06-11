@@ -11,5 +11,5 @@
 		    "--icp=host",
 		    "--pid=host",
 		    "--gpus",
-		    "--all"     
+		    "--all", and many more: https://docs.docker.com/reference/cli/docker/container/run/ 
   
