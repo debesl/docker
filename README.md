@@ -7,8 +7,7 @@
 ### Useful commands:
 - docker build -f myDockerfile.Dockerfile . -t mydocker
 - docker run mydocker [--runargs]
-  - possible runargs:
-      - "--nework=host",
+  - possible runargs: "--nework=host",
 		    "--icp=host",
 		    "--pid=host",
 		    "--gpus",
