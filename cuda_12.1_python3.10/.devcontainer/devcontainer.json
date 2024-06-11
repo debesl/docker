@@ -6,8 +6,8 @@
 		// Sets the run context to one level up instead of the .devcontainer folder.
 		"context": "../",
 		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
-		"dockerfile": "../nn.Dockerfile"
-	}
+		"dockerfile": "../nn.Dockerfile",
+	
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -23,4 +23,13 @@
 
 	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "devcontainer"
+
+	"runArgs": [
+		"--nework=host",
+		"--icp=host",
+		"--pid=host",
+		"--gpus",
+		"--all"
+	]
+}
 }
