@@ -1,0 +1,7 @@
+best_ckpt/
+saved_model/
+models/
+data/
+saved_model_temp/
+saved_tracks_best/*.wav
+*.wav 

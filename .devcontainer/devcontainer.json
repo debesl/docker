@@ -1,0 +1,19 @@
+{
+    "name": "nn",
+    "build": {
+        "context": "../",
+        "dockerfile": "../nn.Dockerfile"
+    },
+    "runArgs": [
+        "--network=host",
+        "--pid=host",
+        "--gpus=all"
+    ],
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "remoteEnv": {
+        "NVIDIA_VISIBLE_DEVICES": "all",
+        "NVIDIA_DRIVER_CAPABILITIES": "compute,utility,graphics"
+    }
+}
